@@ -1,0 +1,80 @@
+.container {
+    display: flex;
+    flex-direction: column;
+}
+
+.buscador{
+    width: 35%;
+}
+
+.contenedor{
+    display: flex;
+    flex-direction: row;
+}
+
+.listado{
+    width: 70%;
+    padding: 15px;
+
+}
+
+.formulario{
+    width: 30%;
+    padding: 15px;
+}
+
+.formulario button{
+    width: 100%;
+}
+
+@media (max-width: 767.98px) {
+
+    .contenedor{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+    }
+
+    .listado{
+        width: 100%;
+        padding: 15px;
+    
+    }
+    
+    .formulario{
+        text-align: center;
+        width: 100%;
+        padding: 15px;
+    }
+    
+    .formulario button{
+        width: 100%;
+    }
+}
+
+@media (min-width: 768px) and (max-width: 991.98px) {
+   
+    .contenedor{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+    }
+
+    .listado{
+        width: 100%;
+        padding: 15px;
+    
+    }
+    
+    .formulario{
+        text-align: center;
+        width: 100%;
+        padding: 15px;
+    }
+    
+    .formulario button{
+        width: 100%;
+    }
+
+  }
+  
